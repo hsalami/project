@@ -1,4 +1,4 @@
-.. |rarr|  unicode:: U+2192 .. RIGHT ARROW
+.. |rarr|  unicode:: U+02192 .. RIGHT ARROW
 
 Tableau Assignment - Dynamic Quadrant Chart
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
