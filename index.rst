@@ -1,132 +1,56 @@
-=====================================================
- The reStructuredText_ Cheat Sheet: Syntax Reminders
-=====================================================
-:Info: See <http://docutils.sf.net/rst.html> for introductory docs.
-:Author: David Goodger <goodger@python.org>
-:Date: $Date: 2013-02-20 02:10:53 +0100 (Mi, 20. Feb 2013) $
-:Revision: $Revision: 7612 $
-:Description: This is a "docinfo block", or bibliographic field list
+.. |srarr|    unicode:: U+02192 .. RIGHTWARDS ARROW
 
-.. NOTE:: If you are reading this as HTML, please read
-   `<cheatsheet.txt>`_ instead to see the input syntax examples!
+Tableau Assignment - Dynamic Quadrant Chart
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Section Structure
-=================
-Section titles are underlined or overlined & underlined.
 
-Body Elements
-=============
-Grid table:
+**PRACTICUM [GROUP]** - Take 90 minutes to answer the following questions. Once you have finished we will ask for volunteers and discuss responses as a group.
 
-+--------------------------------+-----------------------------------+
-| Paragraphs are flush-left,     | Literal block, preceded by "::":: |
-| separated by blank lines.      |                                   |
-|                                |     Indented                      |
-|     Block quotes are indented. |                                   |
-+--------------------------------+ or::                              |
-| >>> print 'Doctest block'      |                                   |
-| Doctest block                  | > Quoted                          |
-+--------------------------------+-----------------------------------+
-| | Line blocks preserve line breaks & indents. [new in 0.3.6]       |
-| |     Useful for addresses, verse, and adornment-free lists; long  |
-|       lines can be wrapped with continuation lines.                |
-+--------------------------------------------------------------------+
 
-Simple tables:
+A) Import the Sample-Superstore data into the Tableau workspace from the computer, and create a connection to the Orders table.
 
-================  ============================================================
-List Type         Examples (syntax in the `text source <cheatsheet.txt>`_)
-================  ============================================================
-Bullet list       * items begin with "-", "+", or "*"
-Enumerated list   1. items use any variation of "1.", "A)", and "(i)"
-                  #. also auto-enumerated
-Definition list   Term is flush-left : optional classifier
-                      Definition is indented, no blank line between
-Field list        :field name: field body
-Option list       -o  at least 2 spaces between option & description
-================  ============================================================
 
-================  ============================================================
-Explicit Markup   Examples (visible in the `text source`_)
-================  ============================================================
-Footnote          .. [1] Manually numbered or [#] auto-numbered
-                     (even [#labelled]) or [*] auto-symbol
-Citation          .. [CIT2002] A citation.
-Hyperlink Target  .. _reStructuredText: http://docutils.sf.net/rst.html
-                  .. _indirect target: reStructuredText_
-                  .. _internal target:
-Anonymous Target  __ http://docutils.sf.net/docs/ref/rst/restructuredtext.html
-Directive ("::")  .. image:: images/biohazard.png
-Substitution Def  .. |substitution| replace:: like an inline directive
-Comment           .. is anything else
-Empty Comment     (".." on a line by itself, with blank lines before & after,
-                  used to separate indentation contexts)
-================  ============================================================
+B) Open up a new worksheet and create a new calculated field called Revenue per Unit, similar to the Profit Ratio calculated field we created during the lesson. In this case we want ``SUM[A]/SUM[B]`` where A and B will give us the revenue per unit.	
+	
 
-Inline Markup
-=============
-*emphasis*; **strong emphasis**; `interpreted text`; `interpreted text
-with role`:emphasis:; ``inline literal text``; standalone hyperlink,
-http://docutils.sourceforge.net; named reference, reStructuredText_;
-`anonymous reference`__; footnote reference, [1]_; citation reference,
-[CIT2002]_; |substitution|; _`inline internal target`.
-
-Directive Quick Reference
-=========================
-See <http://docutils.sf.net/docs/ref/rst/directives.html> for full info.
+C) Create a scatter plot using this new field, Revenue per Unit, in the columns bar and the SUM of sales in the rows bar. Use the subcategory field as the label.
 
-================  ============================================================
-Directive Name    Description (Docutils version added to, in [brackets])
-================  ============================================================
-attention         Specific admonition; also "caution", "danger",
-                  "error", "hint", "important", "note", "tip", "warning"
-admonition        Generic titled admonition: ``.. admonition:: By The Way``
-image             ``.. image:: picture.png``; many options possible
-figure            Like "image", but with optional caption and legend
-topic             ``.. topic:: Title``; like a mini section
-sidebar           ``.. sidebar:: Title``; like a mini parallel document
-parsed-literal    A literal block with parsed inline markup
-rubric            ``.. rubric:: Informal Heading``
-epigraph          Block quote with class="epigraph"
-highlights        Block quote with class="highlights"
-pull-quote        Block quote with class="pull-quote"
-compound          Compound paragraphs [0.3.6]
-container         Generic block-level container element [0.3.10]
-table             Create a titled table [0.3.1]
-list-table        Create a table from a uniform two-level bullet list [0.3.8]
-csv-table         Create a table from CSV data [0.3.4]
-contents          Generate a table of contents
-sectnum           Automatically number sections, subsections, etc.
-header, footer    Create document decorations [0.3.8]
-target-notes      Create an explicit footnote for each external target
-math              Mathematical notation (input in LaTeX format)
-meta              HTML-specific metadata
-include           Read an external reST file as if it were inline
-raw               Non-reST data passed untouched to the Writer
-replace           Replacement text for substitution definitions
-unicode           Unicode character code conversion for substitution defs
-date              Generates today's date; for substitution defs
-class             Set a "class" attribute on the next element
-role              Create a custom interpreted text role [0.3.2]
-default-role      Set the default interpreted text role [0.3.10]
-title             Set the metadata document title [0.3.10]
-================  ============================================================
+   1) What is the subcategory with the highest sales per unit?
+   2) How much revenue per unit does this subcategory generate?
 
-Interpreted Text Role Quick Reference
-=====================================
-See <http://docutils.sf.net/docs/ref/rst/roles.html> for full info.
 
-================  ============================================================
-Role Name         Description
-================  ============================================================
-emphasis          Equivalent to *emphasis*
-literal           Equivalent to ``literal`` but processes backslash escapes
-math              Mathematical notation (input in LaTeX format)
-PEP               Reference to a numbered Python Enhancement Proposal
-RFC               Reference to a numbered Internet Request For Comments
-raw               For non-reST data; cannot be used directly (see docs) [0.3.6]
-strong            Equivalent to **strong**
-sub               Subscript
-sup               Superscript
-title             Title reference (book, etc.); standard default role
-================  ============================================================
+D) Create a parameter for Sales and Revenue per Unit (right click on the pills, create parameter). The sales parameter should be set to $150K and the RPU parameter should be set to $100.
+
+
+E) Add these parameters as reference lines on the proper axis. What names would you give to each quadrant to describe its members?
+
+
+F) Change the shape on the scatter plot to filled circles.
+
+
+G) Color the categories according the the quadrant that they are in. Create a new calculated field called QuadColor and add in the formula below, then drag it to the color mark: ::
+
+     IF  [Revenue Per Unit] >= [Revenue Per Unit Parameter]  
+     AND SUM([Sales]) > [Sales Parameter] THEN 'UPPER RIGHT'  
+     ELSEIF [Revenue Per Unit] < [Revenue Per Unit Parameter]   
+     AND SUM([Sales]) > [Sales Parameter] THEN 'UPPER LEFT'  
+     ELSEIF [Revenue Per Unit] > [Revenue Per Unit Parameter]   
+     AND SUM([Sales]) < [Sales Parameter] THEN 'BOTTOM RIGHT'  
+     ELSE 'BOTTOM LEFT'  
+     END
+
+
+H) Create an action (worksheet |srarr| action) to make your parameters dynamic. Go to Worksheet |srarr| Actions... and add two new Actions.
+   
+   1) A Sales Action that has the target parameter as Sales Parameter, and Value Field of SUM Sales
+   2) A RPU Action that has the target parameter as Revenue per Unit Parameter and Value Field of AGG Revenue Per Unit
+
+
+I) Filter your resulting dynamic quadrant chart to show only the states of Arizona, California, and Colorado.
+
+   1) What is the highest selling item in these 3 states combined, and what were the total sales for this item?
+   2) What item generates the lowest Revenue Per Unit, and what is the Sales amount generated by this item?
+
+
+J) Save your work to your Tableau Public account and paste the link to your workbook below:
+
