@@ -9,7 +9,7 @@ Excel Assignment - Tabular Data
 
 A) Import the music_raw_data.txt file into Excel.
    
-   Answer: Click File |srarr| Open |srarr| Browse. A new window will open showing files and directories. Switch the dropdown menu above the "Open" button to "All Files", select music_raw_data.txt and press open. Select "Delimited" and "My Data Has Headers" and click "Next". Then Select "Comma" and "Next".
+   *Answer*: Click File |srarr| Open |srarr| Browse. A new window will open showing files and directories. Switch the dropdown menu above the "Open" button to "All Files", select music_raw_data.txt and press open. Select "Delimited" and "My Data Has Headers" and click "Next". Then Select "Comma" and "Next".
 
 B) Resize the columns in the spreadsheet to improve visibility.
 
