@@ -2,23 +2,8 @@
 ## Part 1:  Basic Data Structures
 
 1. Make the following vectors in numpy:
-
-    $$
-    v_1 = 
-    \begin{bmatrix}
-    2 \\\
-    4 \\\
-    6
-    \end{bmatrix}
-    \text{ and }
-    v_2 = 
-    \begin{bmatrix}
-    10 \\
-    20 \\
-    30
-    \end{bmatrix}
-    $$
-
+  
+    <a href="https://www.codecogs.com/eqnedit.php?latex=v_1&space;=&space;\begin{bmatrix}&space;2&space;\\\&space;4&space;\\\&space;6&space;\end{bmatrix}&space;\text{&space;and&space;}&space;v_2&space;=&space;\begin{bmatrix}&space;10&space;\\&space;20&space;\\&space;30&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?v_1&space;=&space;\begin{bmatrix}&space;2&space;\\\&space;4&space;\\\&space;6&space;\end{bmatrix}&space;\text{&space;and&space;}&space;v_2&space;=&space;\begin{bmatrix}&space;10&space;\\&space;20&space;\\&space;30&space;\end{bmatrix}" title="v_1 = \begin{bmatrix} 2 \\\ 4 \\\ 6 \end{bmatrix} \text{ and } v_2 = \begin{bmatrix} 10 \\ 20 \\ 30 \end{bmatrix}" /></a>
 
 2. Make the following matrices in numpy:
     * a 2x3 matrix populated with random numbers in the range -4 to 4 with `dtype = int64`
@@ -36,18 +21,11 @@
 
 ## Part 2: Matrix Operations
 
-1. Use numpy to form a matrix $X$ as follows:
+1. Use numpy to form a matrix <a href="https://www.codecogs.com/eqnedit.php?latex=X" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X" title="X" /></a> as follows:
 
-    \begin{aligned}
-    X =
-    \begin{pmatrix}
-    0 & 1 & 2 & 3 \\
-    4 & 5 & 6 & 7 \\
-    8 & 9 & 10 & 11
-    \end{pmatrix}
-    \end{aligned}
+   <a href="https://www.codecogs.com/eqnedit.php?latex=\begin{aligned}&space;X&space;=&space;\begin{pmatrix}&space;0&space;&&space;1&space;&&space;2&space;&&space;3&space;\\&space;4&space;&&space;5&space;&&space;6&space;&&space;7&space;\\&space;8&space;&&space;9&space;&&space;10&space;&&space;11&space;\end{pmatrix}&space;\end{aligned}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{aligned}&space;X&space;=&space;\begin{pmatrix}&space;0&space;&&space;1&space;&&space;2&space;&&space;3&space;\\&space;4&space;&&space;5&space;&&space;6&space;&&space;7&space;\\&space;8&space;&&space;9&space;&&space;10&space;&&space;11&space;\end{pmatrix}&space;\end{aligned}" title="\begin{aligned} X = \begin{pmatrix} 0 & 1 & 2 & 3 \\ 4 & 5 & 6 & 7 \\ 8 & 9 & 10 & 11 \end{pmatrix} \end{aligned}" /></a>
     
-   &nbsp;
+  
    
 2. Complete the following questions about ${X}$ and ${X}^\top$.
 
