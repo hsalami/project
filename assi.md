@@ -1,4 +1,5 @@
-<!-- #region -->
+# Assignment - Linear Algebra 1 
+
 ## Part 1:  Basic Data Structures
 
 1. Make the following vectors in numpy:
@@ -28,7 +29,7 @@
     
   
    
-2. Complete the following questions about <img src="https://latex.codecogs.com/svg.latex?X" title="X" /> and <img src="https://latex.codecogs.com/svg.latex?{X}^\top" title="{X}^\top" />.
+2. Complete the following questions about <img src="https://latex.codecogs.com/svg.latex?X" title="X" /> and <img src="https://latex.codecogs.com/svg.latex?{X}^\top" title="{X}^\top" /> defined in question 1 (part 2).
 
     * is <img src="https://latex.codecogs.com/svg.latex?{X}-{X}^\top" title="{X}-{X}^\top" /> defined? If it is defined, compute it.
     * is <img src="https://latex.codecogs.com/svg.latex?{X}^\top{X}^\top" title="{X}^\top{X}^\top" /> defined? If it is defined, compute it.
@@ -72,14 +73,14 @@
    
 
 
-7. Find `det(AB)` given  <img src="https://latex.codecogs.com/svg.latex?A" title="A" /> and  <img src="https://latex.codecogs.com/svg.latex?B" title="B" /> (round to the nearest 0.001):
+7. Find `det(AB)` (rounded to the nearest 0.001) given <img src="https://latex.codecogs.com/svg.latex?A" title="A" /> and  <img src="https://latex.codecogs.com/svg.latex?B" title="B" /> below:
    
    <img src="https://latex.codecogs.com/svg.latex?A&space;=&space;\begin{pmatrix}&space;8&space;&&space;9&space;\\&space;5&space;&&space;-1&space;\end{pmatrix}&space;\text{&space;and&space;}&space;B&space;=&space;\begin{pmatrix}&space;-2&space;&&space;3&space;\\&space;4&space;&&space;0&space;\end{pmatrix}" title="A = \begin{pmatrix} 8 & 9 \\ 5 & -1 \end{pmatrix} \text{ and } B = \begin{pmatrix} -2 & 3 \\ 4 & 0 \end{pmatrix}" />
     
   
    
 
-8. Find `det(AB)` given  <img src="https://latex.codecogs.com/svg.latex?A" title="A" /> and  <img src="https://latex.codecogs.com/svg.latex?B" title="B" /> (round to the nearest 0.001):
+8. Find `det(AB)` (rounded to the nearest 0.001) given <img src="https://latex.codecogs.com/svg.latex?A" title="A" /> and  <img src="https://latex.codecogs.com/svg.latex?B" title="B" /> below:
 
    <img src="https://latex.codecogs.com/svg.latex?A&space;=&space;\begin{pmatrix}&space;-1&space;&&space;-4&space;&&space;-3&space;&&space;0&space;\\&space;6&space;&&space;3&space;&&space;1&space;&&space;4&space;\\&space;2&space;&&space;-2&space;&&space;5&space;&&space;7&space;\\&space;8&space;&&space;9&space;&&space;10&space;&&space;11&space;\end{pmatrix}&space;\text{&space;and&space;}&space;B&space;=&space;\begin{pmatrix}&space;12&space;&&space;13&space;&&space;-4&space;&&space;14&space;\\&space;6&space;&&space;-1&space;&&space;15&space;&&space;0&space;\\&space;-3&space;&&space;-2&space;&&space;1&space;&&space;2&space;\\&space;7&space;&&space;5&space;&&space;3&space;&&space;4&space;\end{pmatrix}" title="A = \begin{pmatrix} -1 & -4 & -3 & 0 \\ 6 & 3 & 1 & 4 \\ 2 & -2 & 5 & 7 \\ 8 & 9 & 10 & 11 \end{pmatrix} \text{ and } B = \begin{pmatrix} 12 & 13 & -4 & 14 \\ 6 & -1 & 15 & 0 \\ -3 & -2 & 1 & 2 \\ 7 & 5 & 3 & 4 \end{pmatrix}" />
 
@@ -99,10 +100,10 @@ Solve the remaining problems using [np.einsum](https://numpy.org/doc/stable/refe
     G = np.arange(24.).reshape(4,3,2)
 ```
 
-1. Find the dot product of <img src="https://latex.codecogs.com/svg.latex?v" title="v" /> with itself, i.e. <img src="https://latex.codecogs.com/svg.latex?v\cdot&space;v" title="v\cdot v" />
+1. Find the dot product of <img src="https://latex.codecogs.com/svg.latex?v" title="v" /> with itself, i.e., <img src="https://latex.codecogs.com/svg.latex?v\cdot&space;v" title="v\cdot v" />
 
 
-2. Find  <img src="https://latex.codecogs.com/svg.latex?v\cdot&space;z" title="v\cdot z" />
+2. Find <img src="https://latex.codecogs.com/svg.latex?v\cdot&space;z" title="v\cdot z" />
 
 
 3. Find <img src="https://latex.codecogs.com/svg.latex?CB" title="CB" />
