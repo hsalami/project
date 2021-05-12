@@ -6,8 +6,8 @@
     $$
     v_1 = 
     \begin{bmatrix}
-    2 \\
-    4 \\
+    2 \\\
+    4 \\\
     6
     \end{bmatrix}
     \text{ and }
