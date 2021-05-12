@@ -99,31 +99,31 @@ Solve the remaining problems using [np.einsum](https://numpy.org/doc/stable/refe
     G = np.arange(24.).reshape(4,3,2)
 ```
 
-1. Find the dot product of <img src="https://latex.codecogs.com/svg.latex?v" title="v" /> with itself, i.e. <img src="https://latex.codecogs.com/svg.latex?v\cdot&space;v" title="v\cdot v" />.
+1. Find the dot product of <img src="https://latex.codecogs.com/svg.latex?v" title="v" /> with itself, i.e. <img src="https://latex.codecogs.com/svg.latex?v\cdot&space;v" title="v\cdot v" />
 
 
-2. Find  <img src="https://latex.codecogs.com/svg.latex?v\cdot&space;z" title="v\cdot z" />.
+2. Find  <img src="https://latex.codecogs.com/svg.latex?v\cdot&space;z" title="v\cdot z" />
 
 
-3. Find <img src="https://latex.codecogs.com/svg.latex?CB" title="CB" />.
+3. Find <img src="https://latex.codecogs.com/svg.latex?CB" title="CB" />
 
 
-4. Find <img src="https://latex.codecogs.com/svg.latex?DA" title="DA" />.
+4. Find <img src="https://latex.codecogs.com/svg.latex?DA" title="DA" />
 
 
-5. Find <img src="https://latex.codecogs.com/svg.latex?2{C}^2" title="2{C}^2" />.
+5. Find <img src="https://latex.codecogs.com/svg.latex?2{C}^2" title="2{C}^2" />
 
 
-6. Find the sum of the diagonal elements of <img src="https://latex.codecogs.com/svg.latex?C" title="C" />.
+6. Find the sum of the diagonal elements of <img src="https://latex.codecogs.com/svg.latex?C" title="C" />
 
 
-7. Find the transpose of <img src="https://latex.codecogs.com/svg.latex?D" title="D" />.
+7. Find the transpose of <img src="https://latex.codecogs.com/svg.latex?D" title="D" />
 
 
-8. Find the transpose of <img src="https://latex.codecogs.com/svg.latex?C" title="C" />.
+8. Find the transpose of <img src="https://latex.codecogs.com/svg.latex?C" title="C" />
 
 
-9. Find the transpose of <img src="https://latex.codecogs.com/svg.latex?B" title="B" />.
+9. Find the transpose of <img src="https://latex.codecogs.com/svg.latex?B" title="B" />
 
 
 10. Given that  
