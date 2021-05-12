@@ -72,7 +72,7 @@
     \begin{aligned}
     A = 
     \begin{pmatrix}
-    7 & -2 \\
+    7 & -2 \\\
     -6 & 2 
     \end{pmatrix}
     \end{aligned}
